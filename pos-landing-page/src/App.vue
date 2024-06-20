@@ -1,13 +1,16 @@
 <script>
 import Navbar from './components/Navbar.vue';
+import HeaderPage from './components/Header.vue';
+
 export default {
-  components : {Navbar}
+  components : {Navbar, HeaderPage}
 }
 </script>
 
 <template>
   <div>
     <Navbar/>
+    <HeaderPage/>
   </div>
 </template>
 
