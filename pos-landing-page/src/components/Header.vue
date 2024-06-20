@@ -9,13 +9,13 @@
     <div class="flex-1">
         <img class="hidden md:inline-block" src="../assets/imgs/Illustration.png" alt="">
     </div>
-    <div class="flex flex-wrap gap-x-3 justify-center md:w-full md:justify-between">
-        <img class="grayscale w-28" src="../assets/company logos/Company logo (1).png">
-        <img class="grayscale w-28" src="../assets/company logos/Company logo (2).png">
-        <img class="grayscale w-28" src="../assets/company logos/Company logo (3).png">
-        <img class="grayscale w-28" src="../assets/company logos/Company logo (4).png">
-        <img class="grayscale w-28" src="../assets/company logos/Company logo (5).png">
-        <img class="grayscale w-28" src="../assets/company logos/Company logo (6).png">
+    <div class="flex flex-wrap gap-x-3 gap-y-2 justify-center md:w-full md:justify-between">
+        <img class="grayscale w-20" src="../assets/company logos/Company logo (1).png">
+        <img class="grayscale w-20" src="../assets/company logos/Company logo (2).png">
+        <img class="grayscale w-20" src="../assets/company logos/Company logo (3).png">
+        <img class="grayscale w-20" src="../assets/company logos/Company logo (4).png">
+        <img class="grayscale w-20" src="../assets/company logos/Company logo (5).png">
+        <img class="grayscale w-20" src="../assets/company logos/Company logo (6).png">
 
     </div>
   </section>

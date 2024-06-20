@@ -1,9 +1,10 @@
 <script>
 import Navbar from './components/Navbar.vue';
 import HeaderPage from './components/Header.vue';
+import Services from './components/Services.vue';
 
 export default {
-  components : {Navbar, HeaderPage}
+  components : {Navbar, HeaderPage, Services}
 }
 </script>
 
@@ -11,6 +12,7 @@ export default {
   <div>
     <Navbar/>
     <HeaderPage/>
+    <Services/>
   </div>
 </template>
 
