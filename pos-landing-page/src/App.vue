@@ -1,9 +1,13 @@
-<script setup>
+<script>
+import Navbar from './components/Navbar.vue';
+export default {
+  components : [Navbar]
+}
 </script>
 
 <template>
-  <div class="bg-[#000] w-full">
-    <p class="bg-[red] underline text-[crimson]">hi</p>
+  <div>
+  <Navbar/>
   </div>
 </template>
 
