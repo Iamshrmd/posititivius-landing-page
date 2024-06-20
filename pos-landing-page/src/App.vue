@@ -2,8 +2,8 @@
 </script>
 
 <template>
-  <div class="bg-[#000]">
-    <p class="bg-[red] underline text-[#fff]">hi</p>
+  <div class="bg-[#000] w-full">
+    <p class="bg-[red] underline text-[crimson]">hi</p>
   </div>
 </template>
 
