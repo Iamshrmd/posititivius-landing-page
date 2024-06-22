@@ -4,9 +4,10 @@ import HeaderPage from './components/Header.vue';
 import Services from './components/Services.vue';
 import CaseStudies from './components/CaseStudies.vue';
 import Questions from './components/Questions.vue';
+import Team from './components/Team.vue';
 
 export default {
-  components : {Navbar, HeaderPage, Services , CaseStudies , Questions},
+  components : {Navbar, HeaderPage, Services , CaseStudies , Questions, Team},
   data(){
     return{
       caseItems:[
@@ -46,6 +47,44 @@ export default {
           title:"Reporting and Communication",
           answer:"During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.",
         },
+      ],
+      teamItems:[
+        {
+          name:"John Smith",
+          title:"CEO and Founder",
+          des:"10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy",
+          img:""
+        },
+        {
+          name:"Jane Doe",
+          title:"Director of Operations",
+          des:"7+ years of experience in project management and team leadership. Strong organizational and communication skills",
+          img:""
+        },
+        {
+          name:"Michael Brown",
+          title:"Senior SEO Specialist",
+          des:"5+ years of experience in SEO and content creation. Proficient in keyword research and on-page optimization",
+          img:""
+        },
+        {
+          name:"Emily Johnson",
+          title:"PPC Manager",
+          des:"3+ years of experience in paid search advertising. Skilled in campaign management and performance analysis",
+          img:""
+        },
+        {
+          name:"Brian Williams",
+          title:"Social Media Specialist",
+          des:"4+ years of experience in social media marketing. Proficient in creating and scheduling content, analyzing metrics, and building engagement",
+          img:""
+        },
+        {
+          name:"Sarah Kim",
+          title:"Content Creator",
+          des:"2+ years of experience in writing and editing Skilled in creating compelling, SEO-optimized content for various industries",
+          img:""
+        },
       ]
     }
   },
@@ -66,6 +105,7 @@ export default {
     <Services/>
     <CaseStudies :caseItems="caseItems"/>
     <Questions @q-c="showQanswer" :questions="questions"/>
+    <Team :teamItems="teamItems"/>
   </div>
 </template>
 

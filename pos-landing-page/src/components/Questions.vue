@@ -9,7 +9,7 @@
                 <div @click="questionClicked(i)" class="bg-[#F3F3F3] flex flex-col items-center gap-y-5 items-center justify-between rounded-3xl my-5 p-7 border-solid border-[#000] border border-b-4" :class="{'!bg-[#B9FF66]':question.visible}">
                     <div class="flex justify-between w-full items-center">
                         <span class="text-3xl md:text-6xl">0{{ i+1 }}</span>
-                        <label class="text-lg md:text-3xl">{{ question.title }}</label>
+                        <label class="text-center text-lg md:text-3xl">{{ question.title }}</label>
                         <div class="relative flex items-center justify-center">
                             <img src="../assets/imgs/Ellipse 30.png">
                             <img class="absolute" src="../assets/imgs/+.png" :class="{'hidden': question.visible}">
@@ -41,11 +41,8 @@ export default {
                 if (index === i) {
                     if (p.style.maxHeight) {
                         p.style.maxHeight=null;
-                        console.log('empty');
                     }else{
                         p.style.maxHeight = (p.scrollHeight) + "px"
-                        console.log('full')
-                        console.log(p.style.maxHeight);
                     }
                 }else{
                     p.style.maxHeight=null;

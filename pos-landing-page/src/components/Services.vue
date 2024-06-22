@@ -40,7 +40,7 @@
                 <div class="flex items-end justify-between relative h-full">
                     <div class="flex items-center gap-x-2 md:absolute md:bottom-0">
                         <img class="w-10 h-10" src="../assets/cards/Group 1.png" alt="">
-                        <span class="hidden md:inline-block text-xl">Learrn more</span>
+                        <span class="text-[#fff] hidden md:inline-block text-xl">Learrn more</span>
                     </div>
                     <img class="w-40 md:w-52 md:absolute md:left-3/4 md:top-1/4 md:-translate-y-1/2 md:-translate-x-2/4" src="../assets/cards/tokyo-browser-window-with-emoticon-likes-and-stars-around 1.png">
                 </div>
@@ -79,7 +79,7 @@
                 <div class="flex items-end justify-between relative h-full">
                     <div class="flex items-center gap-x-2 md:absolute md:bottom-0">
                         <img class="w-10 h-10" src="../assets/cards/Group 1.png" alt="">
-                        <span class="hidden md:inline-block text-xl">Learrn more</span>
+                        <span class="text-[#fff] hidden md:inline-block text-xl">Learrn more</span>
                     </div>
                     <img class="w-40 md:w-52 md:absolute md:left-3/4 md:top-1/4 md:-translate-y-1/2 md:-translate-x-2/4" src="../assets/cards/tokyo-volumetric-analytics-of-different-types-in-web-browsers 1.png">
                 </div>
