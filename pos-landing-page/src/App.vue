@@ -5,9 +5,10 @@ import Services from './components/Services.vue';
 import CaseStudies from './components/CaseStudies.vue';
 import Questions from './components/Questions.vue';
 import Team from './components/Team.vue';
+import Slider from './components/Slider.vue';
 
 export default {
-  components : {Navbar, HeaderPage, Services , CaseStudies , Questions, Team},
+  components : {Navbar, HeaderPage, Services , CaseStudies , Questions, Team, Slider},
   data(){
     return{
       caseItems:[
@@ -106,6 +107,7 @@ export default {
     <CaseStudies :caseItems="caseItems"/>
     <Questions @q-c="showQanswer" :questions="questions"/>
     <Team :teamItems="teamItems"/>
+    <Slider/>
   </div>
 </template>
 

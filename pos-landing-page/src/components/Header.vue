@@ -9,7 +9,7 @@
     <div class="flex-1">
         <img class="hidden md:inline-block" src="../assets/imgs/Illustration.png" alt="">
     </div>
-    <div class="flex flex-wrap gap-x-3 gap-y-2 justify-center md:w-full md:justify-between">
+    <div class="flex my-5 flex-wrap gap-x-3 gap-y-2 justify-center md:w-full md:justify-between">
         <img class="grayscale md:w-28 w-32" src="../assets/company logos/Company logo (1).png">
         <img class="grayscale md:w-28 w-32" src="../assets/company logos/Company logo (2).png">
         <img class="grayscale md:w-28 w-32" src="../assets/company logos/Company logo (3).png">
