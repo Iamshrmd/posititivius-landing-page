@@ -9,6 +9,9 @@ module.exports = {
     extend: {
       fontFamily: {
         grotesk: ["Space Grotesk", ...defaultTheme.fontFamily.sans]
+      },
+      transitionProperty: {
+        'max-height': 'max-height'
       }
     },
   },
