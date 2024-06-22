@@ -5,7 +5,7 @@
             <h2 class="bg-[#b9ff66] rounded-md text-center px-2 text-4xl font-medium font-normal md:text-4xl">Services</h2>
             <p class="text-base text-center font-normal md:text-lg md:w-1/2">At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:</p>
         </div>
-        <div class="flex flex-col md:flex-row gap-y-8 gap-x-5 flex-wrap justify-between">
+        <div class="flex flex-col md:flex-row gap-y-8 gap-x-8 flex-wrap justify-between">
             <div class="md:h-80 relative md:w-[48%] w-full flex flex-col gap-y-8 bg-[#f3f3f3] border-solid border border-[#191A23] rounded-3xl border-b-4 p-12">
                 <div class="flex flex-col justify-center items-left">
                     <label class="w-fit text-2xl font-normal bg-[#b9ff66] font-bold rounded-md text-center md:text-3xl px-2">Search engine</label>
@@ -84,7 +84,17 @@
                     <img class="w-40 md:w-52 md:absolute md:left-3/4 md:top-1/4 md:-translate-y-1/2 md:-translate-x-2/4" src="../assets/cards/tokyo-volumetric-analytics-of-different-types-in-web-browsers 1.png">
                 </div>
             </div>
-
+            <!--  -->
+            <div class="w-full bg-[#F3F3F3] flex flex-col md:flex-row gap-x-10 px-16 rounded-3xl py-8 justify-between">
+                <div class="flex flex-col gap-y-10 flex-1 justify-around my-5">
+                    <h3 class="text-2xl md:text-3xl">Let’s make things happen</h3>
+                    <p class="text-base md:text-xl">Contact us today to learn more about how our digital marketing services can help your business grow and succeed online.</p>
+                    <button class="bg-[#191A23] text-lg py-5 px-9 rounded-2xl text-[#fff] md:w-1/2">Get your proposal</button>
+                </div>
+                <div class="hidden md:flex items-center justify-center flex-1 relative">
+                    <img class="w-[650px] absolute" src="../assets/cards/frame 19.png">
+                </div>
+            </div>
         </div>
     </div>
   </div>
