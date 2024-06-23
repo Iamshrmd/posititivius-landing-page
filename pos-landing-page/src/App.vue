@@ -7,6 +7,7 @@ import Questions from './components/Questions.vue';
 import Team from './components/Team.vue';
 import Slider from './components/Slider.vue';
 
+
 export default {
   components : {Navbar, HeaderPage, Services , CaseStudies , Questions, Team, Slider},
   data(){

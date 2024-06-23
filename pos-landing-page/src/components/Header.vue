@@ -9,13 +9,25 @@
     <div class="flex-1">
         <img class="hidden md:inline-block" src="../assets/imgs/Illustration.png" alt="">
     </div>
-    <div class="flex my-5 flex-wrap gap-x-3 gap-y-2 justify-center md:w-full md:justify-between">
-        <img class="grayscale md:w-28 w-32" src="../assets/company logos/Company logo (1).png">
-        <img class="grayscale md:w-28 w-32" src="../assets/company logos/Company logo (2).png">
-        <img class="grayscale md:w-28 w-32" src="../assets/company logos/Company logo (3).png">
-        <img class="grayscale md:w-28 w-32" src="../assets/company logos/Company logo (4).png">
-        <img class="grayscale md:w-28 w-32" src="../assets/company logos/Company logo (5).png">
-        <img class="grayscale md:w-28 w-32" src="../assets/company logos/Company logo (6).png">
+    <div class="grid grid-cols-3 md:grid-cols-6 my-5 flex-wrap gap-x-3 gap-y-2 justify-center w-full justify-between">
+      <div class="flex items-center justify-center">
+        <img class="grayscale md:w-28 w-full inline-block" src="../assets/company logos/Company logo (1).png">
+      </div>
+      <div class="flex items-center justify-center">
+        <img class="grayscale md:w-28 w-full inline-block" src="../assets/company logos/Company logo (2).png">
+      </div>
+      <div class="flex items-center justify-center">
+        <img class="grayscale md:w-28 w-full inline-block" src="../assets/company logos/Company logo (3).png">
+      </div>
+      <div class="flex items-center justify-center">
+        <img class="grayscale md:w-28 w-full inline-block" src="../assets/company logos/Company logo (4).png">
+      </div>
+      <div class="flex items-center justify-center">
+        <img class="grayscale md:w-28 w-full inline-block" src="../assets/company logos/Company logo (5).png">
+      </div>
+      <div class="flex items-center justify-center">
+        <img class="grayscale md:w-28 w-full inline-block " src="../assets/company logos/Company logo (6).png">
+      </div>
 
     </div>
   </section>
