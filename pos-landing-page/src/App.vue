@@ -7,10 +7,11 @@ import Questions from './components/Questions.vue';
 import Team from './components/Team.vue';
 import Slider from './components/Slider.vue';
 import Contact from './components/Contact.vue';
+import FooterPage from './components/Footer.vue';
 
 
 export default {
-  components : {Navbar, HeaderPage, Services , CaseStudies , Questions, Team, Contact , Slider},
+  components : {Navbar, HeaderPage, Services , CaseStudies , Questions, Team, Contact , Slider ,FooterPage},
   data(){
     return{
       caseItems:[
@@ -111,6 +112,7 @@ export default {
     <Team :teamItems="teamItems"/>
     <Slider/>
     <Contact/>
+    <FooterPage/>
   </div>
 </template>
 
