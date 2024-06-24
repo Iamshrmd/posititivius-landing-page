@@ -97,7 +97,7 @@
   </swiper>
 
   <swiper v-if="pageWidth >= 1200"
-    :slidesPerView="3"
+    :slidesPerView="2"
     :spaceBetween="30"
     :navigation="true"
     :mousewheel="true"
@@ -109,9 +109,9 @@
     class="mySwiper flex"
   >
     <swiper-slide>
-      <div class="h-[400px] w-[400px] px-2">
+      <div class="h-[400px]  w-full">
         <div class="h-full">
-          <div class="relative z-5 border bordee-solid border-[#B9FF66] h-3/4 p-8 rounded-3xl">
+          <div class="relative z-5 border bordee-solid border-[#B9FF66] h-1/2 p-10 rounded-3xl">
             <p class="text-base z-20 absolute left-0">"We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."</p>
             <div class="w-10 h-10 border-b border-r border-[#B9FF66] bg-[#191A23] z-10 absolute -bottom-5 rotate-45"></div>
           </div>
@@ -124,9 +124,9 @@
     </swiper-slide>
 
     <swiper-slide>
-      <div class="h-[400px] w-[400px]">
+      <div class="h-[400px]  w-full">
         <div class="h-full">
-          <div class="relative z-5 border bordee-solid border-[#B9FF66] h-3/4 p-8 rounded-3xl">
+          <div class="relative z-5 border bordee-solid border-[#B9FF66] h-1/2 p-8 rounded-3xl">
             <p class="text-base z-20 absolute left-0">"We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."</p>
             <div class="w-10 h-10 border-b border-r border-[#B9FF66] bg-[#191A23] z-10 absolute -bottom-5 rotate-45"></div>
           </div>
@@ -139,9 +139,9 @@
     </swiper-slide>
 
     <swiper-slide>
-      <div class="h-[400px] w-[400px]">
+      <div class="h-[400px] w-full">
         <div class="h-full">
-          <div class="relative z-5 border bordee-solid border-[#B9FF66] h-3/4 p-8 rounded-3xl">
+          <div class="relative z-5 border bordee-solid border-[#B9FF66] h-1/2 p-8 rounded-3xl">
             <p class="text-sm z-20 absolute left-0">"We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."</p>
             <div class="w-10 h-10 border-b border-r border-[#B9FF66] bg-[#191A23] z-10 absolute -bottom-5 rotate-45"></div>
           </div>
@@ -156,7 +156,7 @@
     <swiper-slide>
       <div class="h-[400px] w-full">
         <div class="h-full">
-          <div class="relative z-5 border bordee-solid border-[#B9FF66] h-3/4 p-8 rounded-3xl">
+          <div class="relative z-5 border bordee-solid border-[#B9FF66] h-1/2 p-8 rounded-3xl">
             <p class="text-base z-20 absolute left-0">"We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."</p>
             <div class="w-10 h-10 border-b border-r border-[#B9FF66] bg-[#191A23] z-10 absolute -bottom-5 rotate-45"></div>
           </div>
@@ -171,7 +171,7 @@
     <swiper-slide>
       <div class="h-[400px] w-full">
         <div class="h-full">
-          <div class="relative z-5 border bordee-solid border-[#B9FF66] h-3/4 p-8 rounded-3xl">
+          <div class="relative z-5 border bordee-solid border-[#B9FF66] h-1/2 p-8 rounded-3xl">
             <p class="text-base z-20 absolute left-0">"We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."</p>
             <div class="w-10 h-10 border-b border-r border-[#B9FF66] bg-[#191A23] z-10 absolute -bottom-5 rotate-45"></div>
           </div>
@@ -186,7 +186,7 @@
     <swiper-slide>
       <div class="h-[400px] w-full">
         <div class="h-full">
-          <div class="relative z-5 border bordee-solid border-[#B9FF66] h-3/4 p-8 rounded-3xl">
+          <div class="relative z-5 border bordee-solid border-[#B9FF66] h-1/2 p-8 rounded-3xl">
             <p class="text-base z-20 absolute left-0">"We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."</p>
             <div class="w-10 h-10 border-b border-r border-[#B9FF66] bg-[#191A23] z-10 absolute -bottom-5 rotate-45"></div>
           </div>
@@ -199,9 +199,9 @@
     </swiper-slide>
 
     <swiper-slide>
-      <div class="h-[400px] w-full">
+      <div class="h-[400px] w-full mt-b-auto">
         <div class="h-full">
-          <div class="relative z-5 border bordee-solid border-[#B9FF66] h-3/4 p-8 rounded-3xl">
+          <div class="relative z-5 border bordee-solid border-[#B9FF66] h-1/2 p-8 rounded-3xl">
             <p class="text-base z-20 absolute left-0">"We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."</p>
             <div class="w-10 h-10 border-b border-r border-[#B9FF66] bg-[#191A23] z-10 absolute -bottom-5 rotate-45"></div>
           </div>
