@@ -19,8 +19,8 @@
             </div>
             <div class="hidden md:flex bg-[#191A23] justify-between rounded-3xl">
                 <div class="flex items-center justify-center" v-for="(caseItem,i) in caseItems" :key="i">
-                    <div class=" py-14 px-16">
-                        <p class="text-[#fff] text-xl font-light">{{ caseItem }} </p>
+                    <div class="py-14 px-16">
+                        <p class="text-[#fff] text-base font-light md:text-lg">{{ caseItem }} </p>
                         <div class="flex items-center gap-x-5 mt-5">
                             <label class="text-[#B9FF66] text-xl">Learn more</label>
                             <img class="w-5 h-5" src="../assets/imgs/Arrow 1.png">
