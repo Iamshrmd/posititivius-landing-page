@@ -30,7 +30,7 @@
                     </div>
                 </div>
                 <div class="relative md:w-full flex-1 hidden md:block ">
-                    <img class="hidden h-0 w-0 md:inline-block absolute -right-[7%] md:w-1/2 md:h-full " src="../assets/imgs/Illustration (11).png">
+                    <img class="hidden h-0 w-0 md:inline-block absolute -right-[7%] md:w-3/5 md:h-full " src="../assets/imgs/Illustration (11).png">
                 </div>
             </form>
         </div>

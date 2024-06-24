@@ -109,7 +109,7 @@
     class="mySwiper flex"
   >
     <swiper-slide>
-      <div class="h-[400px]  w-full">
+      <div class="h-[400px] w-full">
         <div class="h-full">
           <div class="relative z-5 border bordee-solid border-[#B9FF66] h-1/2 p-10 rounded-3xl">
             <p class="text-base z-20 absolute left-0">"We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."</p>
