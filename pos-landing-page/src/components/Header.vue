@@ -10,22 +10,22 @@
         <img class="hidden md:inline-block" src="../assets/imgs/Illustration.png" alt="">
     </div>
     <div class="grid grid-cols-3 md:grid-cols-6 my-5 flex-wrap gap-x-3 gap-y-2 justify-center w-full justify-between">
-      <div class="flex items-center justify-center">
+      <div class="flex items-center justify-center w-fit">
         <img class="grayscale md:w-28 w-full inline-block" src="../assets/company logos/Company logo (1).png">
       </div>
-      <div class="flex items-center justify-center">
+      <div class="flex items-center justify-center w-fit">
         <img class="grayscale md:w-28 w-full inline-block" src="../assets/company logos/Company logo (2).png">
       </div>
-      <div class="flex items-center justify-center">
+      <div class="flex items-center justify-center w-fit">
         <img class="grayscale md:w-28 w-full inline-block" src="../assets/company logos/Company logo (3).png">
       </div>
-      <div class="flex items-center justify-center">
+      <div class="flex items-center justify-center w-fit">
         <img class="grayscale md:w-28 w-full inline-block" src="../assets/company logos/Company logo (4).png">
       </div>
-      <div class="flex items-center justify-center">
+      <div class="flex items-center justify-center w-fit">
         <img class="grayscale md:w-28 w-full inline-block" src="../assets/company logos/Company logo (5).png">
       </div>
-      <div class="flex items-center justify-center">
+      <div class="flex items-center justify-center w-fit">
         <img class="grayscale md:w-28 w-full inline-block " src="../assets/company logos/Company logo (6).png">
       </div>
 
